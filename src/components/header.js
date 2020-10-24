@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </h1>
         <p style={{ fontStyle: `italic`, fontSize: `1.2em`, fontWeight: `500` }}>
-          Make Humour that Matter
+          Make Humour that Matters
         </p>
       </div>
         <p style={{ background: `#ffffffcc`, borderRadius: `6px`, display: `inline-block`, boxShadow: `0 4px 6px -2px #ffffff88`, padding: `8px 14px`, color: `black`, fontSize: `1em`, fontWeight: `500` }}>
@@ -47,7 +47,7 @@ Header.propTypes = {
 
 Header.defaultProps = {
   siteTitle: `Digital Rights Comics`,
-  siteDescripton: 'Make humour that matter'
+  siteDescripton: 'Make humour that matters'
 }
 
 export default Header

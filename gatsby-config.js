@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Digital Rights Comics`, // Edit this title
-    description: `Make Humour That Matter`, // Edit this description
+    description: `Make Humour That Matters`, // Edit this description
     author: `@wilsonbright`, // Add your username for Github
     siteUrl: `https://blocksurvey.io` // Add you wesbite
   },

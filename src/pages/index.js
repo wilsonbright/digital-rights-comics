@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
-    <SEO title="Make Humour That Matter" />
+    <SEO title="Make Humour That Matters" />
     <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
