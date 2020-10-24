@@ -35,13 +35,13 @@ const Layout = ({ children }) => {
               color: `inherit`
             }
             }>blocksurvey.io</a> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
           <Link to={`/rss.xml`}style={{
               color: `inherit`
               }}>
                 RSS Feed
               </Link> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
           <Link to={`/tags`}style={{
               color: `inherit`
           }}>
