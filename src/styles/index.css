@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap');
+
+h1 {
+    margin: 0;
+}
+
+body{
+    font-family: "Archivo";
+    background-color: #E5E5F7;
+    background-image:  radial-gradient(#444CF799 1px, transparent 1px), radial-gradient(#444CF799 1px, #E5E5F7aa 1px);
+    background-size: 45px 45px;
+    background-position: 0 0,22.5px 22.5px;
+    min-height: 100vh;
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+header:before{
+    background: url(../images/header.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+header h1{
+    font-family: "Archivo Black";
+}
+
+footer{
+    margin-top: 2rem;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #918fb0;
+    background: white;
+}
+
+.tags-main{
+    max-width: 650px;
+    background: white;
+    margin: 20px auto 40px;
+    box-sizing: border-box;
+    padding: 5px 25px 18px;
+    max-width: 650px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px #00000011;
+    overflow: hidden;
+    line-height: 2em;
+    width: 90%;
+}
+
+.tags-main a{
+    color: dodgerblue;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+
+
+.post-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin: 0 15px;
+}
+
+.tags-container{
+    margin-top: 30px;
+}
+
+.taglist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-inline-start: 0 !important;
+}
+
+.taglist div {
+    margin: 10px 0;
+}
+
+.taglist div:nth-child(2){
+    margin: 10px;
+}
+
+.post-list__item, .post-main{
+    box-sizing: border-box;
+    padding: 5px 25px 18px;
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px #00000011;
+    background: white;
+    overflow: hidden;
+}
+
+.post-list__content p{
+    color: #918fb0;
+}
+
+.post-main{
+    background: white;
+    width: 90%;
+    margin: 0 auto;
+}
