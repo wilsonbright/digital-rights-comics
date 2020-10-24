@@ -1,5 +1,5 @@
 ---
-path:/post/the-last-leaf
+path: /post/the-last-leaf
 title: The last one
 date: 2020-10-24
 thumbnail: "../../images/the-last-leaf.png"
