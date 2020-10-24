@@ -1,6 +1,6 @@
 ---
 path:/post/the-last-leaf
-title:
+title: The last one
 date: 2020-10-24
 thumbnail: "../../images/the-last-leaf.png"
 tags: ['data security']
