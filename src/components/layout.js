@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()} 
           {` `}
-          <a href="https://blocksurvey.io" style={
+          <a href="https://blocksurvey.io?ref=digitalrights" style={
             {
               color: `inherit`
             }
@@ -46,6 +46,12 @@ const Layout = ({ children }) => {
               color: `inherit`
           }}>
             All Tags
+          </Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <Link to={`https://github.com/wilsonbright/digital-rights-comics`}style={{
+              color: `inherit`
+          }}>
+            GitHub
           </Link>
         </footer>
       </div>
