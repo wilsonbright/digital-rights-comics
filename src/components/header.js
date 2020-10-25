@@ -33,6 +33,7 @@ const Header = ({ siteTitle }) => (
         <p style={{ fontStyle: `italic`, fontSize: `1.2em`, fontWeight: `500` }}>
           Make Humour that Matters
         </p>
+        <a href="https://www.producthunt.com/posts/digital-rights-comics?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-digital-rights-comics" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=272213&theme=dark" alt="Digital Rights Comics - Make humour that matters | Product Hunt"></img></a>
       </div>
         <p style={{ background: `#ffffffcc`, borderRadius: `6px`, display: `inline-block`, boxShadow: `0 4px 6px -2px #ffffff88`, padding: `8px 14px`, color: `black`, fontSize: `1em`, fontWeight: `500` }}>
           <a style={{textDecoration: `none`, color: `black`}} href="/rss.xml">RSS Feed</a> &nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="/tags">All Tags</a>
