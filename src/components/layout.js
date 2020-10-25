@@ -35,23 +35,29 @@ const Layout = ({ children }) => {
               color: `inherit`
             }
             }>blocksurvey.io</a> 
-            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
           <Link to={`/rss.xml`}style={{
               color: `inherit`
               }}>
                 RSS Feed
               </Link> 
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
           <Link to={`/tags`}style={{
               color: `inherit`
           }}>
             All Tags
           </Link>
-          &nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
           <Link to={`https://github.com/wilsonbright/digital-rights-comics`}style={{
               color: `inherit`
           }}>
             GitHub
+          </Link>
+          &nbsp;&nbsp;
+          <Link to={` https://creativecommons.org/licenses/by-nc/4.0/`}style={{
+              color: `inherit`
+          }}>
+            License
           </Link>
         </footer>
       </div>

@@ -22,6 +22,10 @@
 
     Digital rights is human right. Unfortunately many aren't aware of their digital rights. 
     We have a social obligation to share this people. Hence the birth of Digital Rights comics
-        
+
+4.  **Is it free to use?**
+
+    This work is licensed under [Creative Commons Non-Commercial License](https://creativecommons.org/licenses/by-nc/4.0/). 
+    This means you're free to copy and share these comics. Do not sell them.       
 
 
