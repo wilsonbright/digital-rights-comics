@@ -36,8 +36,8 @@ const Header = ({ siteTitle }) => (
       </div>
         <p style={{ background: `#ffffffcc`, borderRadius: `6px`, display: `inline-block`, boxShadow: `0 4px 6px -2px #ffffff88`, padding: `8px 14px`, color: `black`, fontSize: `1em`, fontWeight: `500` }}>
           <a style={{textDecoration: `none`, color: `black`}} href="/rss.xml">RSS Feed</a> &nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="/tags">All Tags</a>
-          &nbsp;&nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="https://link.blocksurvey.io/comic-submission" target='_blank'>Submit</a>
-          &nbsp;&nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="https://link.blocksurvey.io/comic-subscribe" target='_blank'>Subscribe</a>
+          &nbsp;&nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="https://link.digitalrights.us/comic-submission" target='_blank'>Submit</a>
+          &nbsp;&nbsp;<span style={{fontSize: `1em`, fontWeight: `300`}}>•</span>&nbsp; <a style={{textDecoration: `none`, color: `black`}} href="https://link.digitalrights.us/comic-subscribe" target='_blank'>Subscribe</a>
         </p>
     </header>
   </div>

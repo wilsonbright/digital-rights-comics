@@ -18,10 +18,9 @@
 
     Subscribe here 👉 [Newsletter](https://link.blocksurvey.io/comic-subscribe)
 
-3.  **Why Digital Rights Comics?**
+3.  **What is Digital Rights Comics and Why?**
 
-    Digital rights is human right. Unfortunately many aren't aware of their digital rights. 
-    We have a social obligation to share this people. Hence the birth of Digital Rights comics
+    A platform for comic creators to educate people on digital rights. Digital right is a human right. Unfortunately, many aren't aware of digital rights. Digital Rights Comics has a social obligation to share this with people using comics medium.
 
 4.  **Is it free to use?**
 

@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-
+      
       <div
         style={{padding: `1.45rem 0 0`}}
       >
@@ -59,6 +59,7 @@ const Layout = ({ children }) => {
           }}>
             License
           </Link>
+       
         </footer>
       </div>
     </>
