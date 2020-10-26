@@ -5,6 +5,7 @@ import Img from 'gatsby-image';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ShareButtons from "../components/share"
 
 import '../styles/index.css'
 
@@ -28,6 +29,7 @@ const IndexPage = ({ data }) => {
                 />
               </Link>
             </div>
+
             {post.node.frontmatter.tags ? (
               <div className="tags-container">
                 <ul className="taglist">
@@ -36,15 +38,20 @@ const IndexPage = ({ data }) => {
                       <Link to={`/tags/${kebabCase(tag)}/`}style={{
                         padding: `8px 14px`,
                         background: `#0059ff`,
+                        display: `inline-flex`,
                         borderRadius: `6px`,
                         textDecoration: `none`,
                         color: `white`,
                         fontSize: `0.8rem`
                       }}>
                         {tag}
+
                       </Link>
                     </div>
                   ))}
+                  <ShareButtons url={post.node.frontmatter.thumbnail.childImageSharp.fluid.src}/>
+
+
                 </ul>
               </div>
             ) : null}

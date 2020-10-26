@@ -2,12 +2,12 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import SEO from "../components/seo";
-
 import Layout from '../components/layout';
 
 const PostTemplate = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
+  //const url = props.location.href;
   const imageSrc = frontmatter.thumbnail && frontmatter.thumbnail.childImageSharp.sizes.src;
   let origin = "";
   if (typeof window !== "undefined") {
