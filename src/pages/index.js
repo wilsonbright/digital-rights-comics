@@ -9,6 +9,10 @@ import ShareButtons from "../components/share"
 
 import '../styles/index.css'
 
+let origin = "";
+if (typeof window !== "undefined") {
+  origin = window.location.origin;
+}
 
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
