@@ -61,6 +61,7 @@ module.exports = {
             `,
             output: `/rss.xml`,
             title: `Digital Rights Comics RSS Feed`,
+            link: `https://digitalrights.us`
           },
         ],
       }
