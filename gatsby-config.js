@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Digital Rights Comics",
-    titleTemplate: "%s · Make Humour That Matters",
-    description:"A platform for comic creators to educate people on digital rights. Digital right is a human right.",
-    url: "https://digitalrights.us", // No trailing slash allowed!
-    image: "src/images/digitalrights.png", // Path to your image you placed in the 'static' folder
+    title: `Digital Rights Comics`, // Edit this title
+    titleTemplate: "%s · The Humour That Matters",
+    description: `Make Humour That Matters`, // Edit this description
+    author: `@wilsonbright`, // Add your username for Github
+    url: `https://digitalrights.us`, // Add your wesbite
+    image:'/images/digital-rights.png'
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -20,6 +21,7 @@ module.exports = {
                 title
                 description
                 url
+                image
               }
             }
           }
