@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
             GitHub
           </Link>
           &nbsp;&nbsp;
-          <Link to={` https://creativecommons.org/licenses/by-nc/4.0/`}style={{
+          <Link to={`https://creativecommons.org/licenses/by-nc/4.0/`}style={{
               color: `inherit`
           }}>
             License
