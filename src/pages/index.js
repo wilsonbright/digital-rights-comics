@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
-    <SEO title="Make Humour That Matters" />
+    <SEO title="Make Humour That Matters - Digital Rights Comics" />
     <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">

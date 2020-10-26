@@ -19,8 +19,9 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = site.siteMetadata.description
+  const metaImage = site.siteMetadata.siteImage
+  //const defaultTitle = site.siteMetadata?.title
 
   return (
     <Helmet
@@ -28,8 +29,12 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+     // titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
+        {
+          name: `title`,
+          content: title,
+        },
         {
           name: `description`,
           content: metaDescription,
@@ -43,16 +48,16 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: metaImage,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
         {
           name: `twitter:card`,
           content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
         },
         {
           name: `twitter:title`,
