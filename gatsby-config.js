@@ -3,7 +3,8 @@ module.exports = {
     title: `Digital Rights Comics`, // Edit this title
     description: `Make Humour That Matters`, // Edit this description
     author: `@wilsonbright`, // Add your username for Github
-    siteUrl: `https://digitalrights.us` // Add you wesbite
+    siteUrl: `https://digitalrights.us`, // Add your wesbite
+    siteImage:'https://digitalrights.us/images/digital-rights.svg'
   },
   plugins: [
     `gatsby-plugin-sass`,
