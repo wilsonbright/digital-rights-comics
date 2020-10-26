@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => {
                         borderRadius: `6px`,
                         textDecoration: `none`,
                         color: `white`,
-                        fontSize: `0.8rem`,
+                        fontSize: `0.8rem`
                         }}>
                         {tag}
                       </Link>
