@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Digital Rights Comics`, // Edit this title
-    description: `Make Humour That Matters`, // Edit this description
-    author: `@wilsonbright`, // Add your username for Github
-    siteUrl: `https://digitalrights.us`, // Add your wesbite
-    siteImage:'https://digitalrights.us/images/digital-rights.svg'
+    title: "Digital Rights Comics",
+    titleTemplate: "%s · Make Humour That Matters",
+    description:"A platform for comic creators to educate people on digital rights. Digital right is a human right.",
+    url: "https://digitalrights.us", // No trailing slash allowed!
+    image: "src/images/digitalrights.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -102,7 +102,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/digital-rights.svg`, // This path is relative to the root of the site.
+        icon: `src/images/digital-rights.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
