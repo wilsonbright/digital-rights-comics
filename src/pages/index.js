@@ -30,7 +30,8 @@ const IndexPage = ({ data }) => {
               <Link to={post.node.fields.slug}>
                 <Img
                   fluid={post.node.frontmatter.thumbnail.childImageSharp.fluid}
-                />
+                />             
+                <SEO image={post.node.frontmatter.thumbnail.childImageSharp.fluid}/>
               </Link>
             </div>
 
