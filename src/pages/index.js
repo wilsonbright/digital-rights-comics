@@ -42,16 +42,13 @@ const IndexPage = ({ data }) => {
                         borderRadius: `6px`,
                         textDecoration: `none`,
                         color: `white`,
-                        fontSize: `0.8rem`
-                      }}>
+                        fontSize: `0.8rem`,
+                        }}>
                         {tag}
-
                       </Link>
                     </div>
                   ))}
-                  <ShareButtons url={post.node.frontmatter.thumbnail.childImageSharp.fluid.src}/>
-
-
+                  <ShareButtons title={post.node.frontmatter.title} url={origin+post.node.fields.slug}/>
                 </ul>
               </div>
             ) : null}

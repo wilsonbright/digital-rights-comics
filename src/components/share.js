@@ -1,33 +1,22 @@
 import React from 'react'
 
 import {
-  FacebookShareButton,
-  FacebookIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
   TwitterShareButton,
   TwitterIcon,
   RedditShareButton,
   RedditIcon
 } from 'react-share'
 
-const ShareButtons = ({url}) => {
+const ShareButtons = ({title, url}) => {
 
     return(
         <div>
-          <FacebookShareButton url={url}  >
-                <FacebookIcon  size={30} round={true}/>
-         </FacebookShareButton>
-
-          <TwitterShareButton url={url}>
+          &nbsp;&nbsp;
+          <TwitterShareButton title={title} url={url}>
                 <TwitterIcon  size={30} round={true} />
           </TwitterShareButton>
-
-          <LinkedinShareButton url={url}>
-            <LinkedinIcon  size={30} round={true}/>
-          </LinkedinShareButton>
-
-          <RedditShareButton url={url} >
+          &nbsp;
+          <RedditShareButton title={title} url={url} >
             <RedditIcon  size={30} round={true} />
           </RedditShareButton>
         </div>
