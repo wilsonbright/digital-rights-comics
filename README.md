@@ -12,11 +12,11 @@
 
 1.  **Do you accept comics to be featured on digitalright.us?**
 
-    Yes, we do accept submission from public. Please submit your comics here 👉 [Comic Submission](https://link.digitalrights.us/comic-submission)
+    Yes, we do accept submission from public. Please submit your comics here 👉 [Comic Submission](https://blocksurvey.io/survey/1DnQ8ArNjQU8Xrf97BbaNNLbFeJTksxHYC/025415f8-5648-4b73-a1a9-4e91b0562f2c)
 
 2.  **How to subscrible comics by email or as a newsletter?**
 
-    Subscribe here 👉 [Newsletter](https://link.digitalrights.us/comic-subscribe)
+    Subscribe here 👉 [Newsletter](https://blocksurvey.io/survey/1DnQ8ArNjQU8Xrf97BbaNNLbFeJTksxHYC/4ca5ad58-5b7d-4b83-bdda-3481a503c787)
 
 3.  **What is Digital Rights Comics and Why?**
 
