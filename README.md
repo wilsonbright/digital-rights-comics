@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://digitalrights.us">
-    <img alt="Digtial Rights Comics" src="https://digitalrights.us/favicon.svg" width="60" />
+    <img alt="Digtial Rights Comics" src="https://digitalrights.us/icons/icon-256x256.png" width="60" />
   </a>
 </p>
 <h1 align="center">
