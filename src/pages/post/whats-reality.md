@@ -1,7 +1,7 @@
 ---
 path: /post/whats-reality
 title: What's Reality
-date: 2020-10-26
+date: 2020-10-24
 thumbnail: "../../images/whats-reality.png"
 tags: ['AR']
 ---

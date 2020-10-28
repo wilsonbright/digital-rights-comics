@@ -28,9 +28,9 @@ const IndexPage = ({ data }) => {
           </div>
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
-                <Img
+              <Img
                   fluid={post.node.frontmatter.thumbnail.childImageSharp.fluid}
-                />             
+                /> 
               </Link>
             </div>
 
